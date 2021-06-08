@@ -1,0 +1,60 @@
+* {
+  font-family: 'Tahoma', sans-serif
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Garamond', serif;
+  font-size: 3rem;
+  color: lightgray;
+  background-color: #32586e;
+  margin: 0.75rem;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  margin: 0.75rem;
+  padding: .5rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0;
+  background-color: #32586e;
+}
+
+li {
+  display: inline;
+  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: lightgray;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover {
+  color: #82c4eb;
+}
+
+a:active {
+  border: 0.25rem solid #82c4eb;
+  border-radius: 0.25rem;
+}
