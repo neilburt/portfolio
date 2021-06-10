@@ -15,7 +15,7 @@
     <nav>
       <ul>
         <li><a href="#bio">Bio</a></li>
-        <li id="middle"><a href="#works">Works</a></li>
+        <li class="middle"><a href="#works">Works</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -23,7 +23,7 @@
 
   <main>
     <section id="bio">
-      <img src="./assets/images/profile.jpg" alt="a picture of my girlfriend, cat, and self" />
+      <img src="./assets/images/profile.jpg" alt="photo of my girlfriend, cat, and self" />
       <h2>A Bit About Me</h2>
       <p class="top">I live in North Minneapolis with my girlfriend and cat companion. We have a beautiful house in the Victory neighborhood near Robbinsdale. I'm a gamer who loves to camp and go on walks. I love animals, am really into birding, and have always enjoyed dabbling with computers and tech.</p>
       <p class="bottom">I worked in retail for 13 years, the final three in management, primarily with stock and inventory control before deciding to move on. I made a natural transition to more warehouse work but in manufacturing instead and after a few years in that field, I decided it was time to make a change. Thus began my journey into the world of Coding.</p>
@@ -33,7 +33,7 @@
       <h2>My Work</h2>
       
       <a href="https://neilburt.github.io/semantic-tags/" target="_blank">
-        <div class="link-image">
+        <div id="semantic-tags" class="link-image">
           <img src="./assets/images/semantic-tags.jpg" class="works-img" alt="young, casually dressed professionals at a meeting" />
           <div class="overlay">
             <div class="text">Semantic Refactor</div>
@@ -42,19 +42,34 @@
       </a>
       
       <a href="https://scratch.mit.edu/projects/526196411/" target="_blank">
-        <div class="link-image">
+        <div id="scratch-game" class="link-image">
           <img src="./assets/images/scratch-game.jpg" class="works-img" alt="screenshot of cartoon cat game" />
           <div class="overlay">
             <div class="text">Scratch Game</div>
           </div>
         </div>
       </a>
-    </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
+      <a href="https://toolband.com" target="_blank">
+        <div id="tool-band" class="link-image">
+          <img src="./assets/images/tool-band.jpg" class="works-img" alt="screenshot of Tool band website" />
+          <div class="overlay">
+            <div class="text">Tool Band Web Site</div>
+          </div>
+        </div>
+      </a>
     </section>
   </main>
+  
+  <footer>
+    <h2>Contact Me</h2>
+    
+    <section id="contact" class="top">
+      <div class="contact">555-555-5555</div>
+      <a href="mailto:neilburt@email.com"><div class="contact">neilburt@email.com</div></a>
+      <a href="https://github.com/neilburt" target="_blank"><div class="contact">GitHub</div></a>
+    </section>
+  </footer>
 </body>
 
 </html>
