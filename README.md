@@ -4,6 +4,8 @@ This is a personal profile web page to let an employer know a little about me, d
 
 The Tool band website is not my work, it is merely a placeholder as I do not have a lot of work of my own yet. They happen to be my favorite band and have an inspiring web design.
 
+The phone number and email are fake but the GitHub link does lead to my GitHub profile.
+
 ## Screenshots
 ![Top half screenshot of personal profile web page](./assets/images/screenshot1.jpg)
 
