@@ -62,21 +62,22 @@ li {
 
 img {
   align-self: center;
-  display: inline;
+  /* display: inline; */
   margin-right: 1rem;
 }
 
 h2 {
   color: var(--light);
-  display: inline;
+  /* display: inline; */
   font-weight: 600;
 }
 
 #bio {
+  display: flex;
   padding: 1rem;
 }
 
-p {
+#bio-text {
   color: var(--light);
   line-height: 1.25rem;
   padding: 0 1rem;
@@ -192,18 +193,34 @@ a:active {
   color: var(--link)
 }
 
-@media screen and (max-width: 1448px) {
+@media screen and (max-width: 2056px) {
   #tool-band {
     margin-left: 8rem;
   }
 }
 
-@media screen and (max-width: 1122px) {
+@media screen and (max-width: 1735px) {
+  #tool-band {
+    margin-left: 0;
+  }
+  
+  #scratch-game {
+    margin-left: 8rem;
+  }
+}
+
+@media screen and (max-width: 1406px){
   #tool-band {
     margin-left: 0;
   }
   #scratch-game {
-    margin-left: 8rem;
+    margin-left: 0;
+  }
+  #semantic-tags {
+    margin-left: 0;
+  }
+  #works {
+    flex-direction: column;
   }
 }
 
@@ -226,9 +243,21 @@ a:active {
   }
 }
 
+@media screen and (max-width: 759px) {
+  #bio img {
+    position: relative;
+  }
+}
+
 @media screen and (max-width: 640px) {
   header {
     display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  #bio {
     flex-direction: column;
   }
 }
