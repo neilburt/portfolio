@@ -110,6 +110,10 @@ h2 {
   border: 0.3rem solid var(--light);
 }
 
+#day-planner {
+  margin-left: 8rem;
+}
+
 .link-image { /* begin fade-in overlay for works image links */
   position: relative;
   max-width: 100%;
@@ -193,30 +197,26 @@ a:active {
   color: var(--link)
 }
 
-@media screen and (max-width: 2056px) {
-  #tool-band {
+@media screen and (max-width: 1429px) {
+  #password-generator {
     margin-left: 8rem;
   }
 }
 
-@media screen and (max-width: 1735px) {
-  #tool-band {
-    margin-left: 0;
-  }
-  
-  #scratch-game {
+@media screen and (max-width: 1423px) {
+  #code-quiz {
     margin-left: 8rem;
   }
 }
 
-@media screen and (max-width: 1406px){
-  #tool-band {
+@media screen and (max-width: 798px) {
+  #day-planner {
     margin-left: 0;
   }
-  #scratch-game {
+  #password-generator {
     margin-left: 0;
   }
-  #semantic-tags {
+  #code-quiz {
     margin-left: 0;
   }
   #works {
@@ -224,22 +224,10 @@ a:active {
   }
 }
 
-@media screen and (max-width: 828px) {
-  #tool-band {
-    margin-left: 8rem;
-  }
-}
-
-@media screen and (max-width: 797px) {
-  #works {
-    flex-direction: column;
-    margin: 1rem;
-  }
-  #scratch-game {
-    margin-left: 0;
-  }
-  #tool-band {
-    margin-left: 0;
+@media screen and (max-width: 783px) {
+  h1 {
+    padding: 1rem;
+    text-align: center;
   }
 }
 
@@ -249,9 +237,14 @@ a:active {
   }
 }
 
+@media screen and (max-width: 642px) {
+  nav {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 640px) {
   header {
-    display: flex;
     flex-direction: column;
   }
 }
@@ -270,5 +263,12 @@ a:active {
   }
   .contact {
     padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  li {
+    font-size: 1rem;
+    padding: 20px 16px;
   }
 }
