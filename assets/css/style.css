@@ -1,5 +1,6 @@
 * {
-  font-family: 'Sarabun', sans-serif
+  font-family: 'Sarabun', sans-serif;
+  color: var(--light);
 }
 
 :root {
@@ -155,6 +156,16 @@ h2 {
   padding: 1rem;
 }
 
+button {
+  background-color: var(--light);
+  color: var(--dark);
+  font-weight: 600;
+}
+
+#repos {
+  margin-left: 1rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -194,7 +205,7 @@ a:hover {
 }
 
 a:active {
-  color: var(--link)
+  color: var(--link);
 }
 
 @media screen and (max-width: 1429px) {
@@ -204,7 +215,7 @@ a:active {
 }
 
 @media screen and (max-width: 1423px) {
-  #code-quiz {
+  #event-organizer {
     margin-left: 8rem;
   }
 }
@@ -216,7 +227,7 @@ a:active {
   #password-generator {
     margin-left: 0;
   }
-  #code-quiz {
+  #event-organizer {
     margin-left: 0;
   }
   #works {
