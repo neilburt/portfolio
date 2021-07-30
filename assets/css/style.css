@@ -112,7 +112,7 @@ h2 {
 }
 
 #day-planner {
-  margin-left: 8rem;
+  margin-left: 6.5rem;
 }
 
 .link-image { /* begin fade-in overlay for works image links */
@@ -210,15 +210,18 @@ a:active {
 
 @media screen and (max-width: 1429px) {
   #password-generator {
-    margin-left: 8rem;
+    margin-left: 6.5rem;
+  }
+  #event-organizer {
+    margin-left: 6.5rem;
   }
 }
-
+/* 
 @media screen and (max-width: 1423px) {
   #event-organizer {
     margin-left: 8rem;
   }
-}
+} */
 
 @media screen and (max-width: 798px) {
   #day-planner {
@@ -245,6 +248,17 @@ a:active {
 @media screen and (max-width: 759px) {
   #bio img {
     position: relative;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .contact {
+    padding-bottom: 1rem;
   }
 }
 
