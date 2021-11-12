@@ -1,4 +1,4 @@
-# Homework 2 - Portfolio
+# Portfolio
 ## Description
 This is a personal profile web page to let an employer know a little about me, display my work so far, demonstrate the advanced CSS techniques that I have learned, and provide my contact information.
 
